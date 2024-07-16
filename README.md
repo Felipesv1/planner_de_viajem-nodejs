@@ -89,5 +89,5 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ## Contato
 
-Felipe - [Seu LinkedIn](https://www.linkedin.com/in/seu-perfil) - seu-email
+Felipe - [Seu LinkedIn](https://www.linkedin.com/in/felipereira0) - seu-email
 
