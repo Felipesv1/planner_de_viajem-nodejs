@@ -1,44 +1,93 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0:83a4d4,100:005bea&height=120&section=header"/>
 
-<h1 align="center">Travel Planner</h1>
+# Planner de Viajens
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-</p>
+Um aplicativo de planejamento de viagens desenvolvido com Node.js, Express e Prisma.
 
-<p align="center">
-  <strong>Plan your next adventure with ease</strong>
-</p>
+## Índice
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Felipesv1&repo=travel-planner&theme=radical" />
-</div>
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação](#instalação)
+- [Como Usar](#como-usar)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+- [Contato](#contato)
 
-## Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+## Sobre o Projeto
 
-## About
+Este projeto é um aplicativo web para planejar viagens, onde os usuários podem criar, editar e excluir planos de viagem. O objetivo é fornecer uma ferramenta simples e intuitiva para organizar viagens e compartilhar itinerários.
 
-Travel Planner is a comprehensive Node.js application designed to help you organize and manage your travel plans seamlessly. From creating itineraries to managing accommodations and activities, this planner has got you covered.
+## Funcionalidades
 
-## Features
+- Cadastro de usuários
+- Login/Logout
+- Criação de planos de viagem
+- Edição de planos de viagem
+- Exclusão de planos de viagem
+- Visualização dos planos de viagem
 
-- **Itinerary Management**: Create, update, and delete travel itineraries.
-- **Accommodation Booking**: Manage your accommodation details.
-- **Activity Scheduling**: Schedule and keep track of your planned activities.
-- **Real-time Updates**: Get real-time updates on your travel plans.
+## Tecnologias Utilizadas
 
-## Installation
+- Node.js
+- Express
+- Prisma
+- PostgreSQL
+- TypeScript
 
-To get started with Travel Planner, follow these steps:
+## Instalação
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Felipesv1/travel-planner.git
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/Felipesv1/planner_de_viajens-nodejs.git
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd planner_de_viajens-nodejs
+    ```
+
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+
+4. Crie um arquivo `.env` e configure as variáveis de ambiente necessárias:
+    ```env
+    DATABASE_URL=postgresql://user:password@localhost:5432/mydatabase
+    ```
+
+5. Execute as migrações do Prisma:
+    ```bash
+    npx prisma migrate dev
+    ```
+
+6. Inicie o servidor:
+    ```bash
+    npm start
+    ```
+
+7. Abra o navegador e acesse `http://localhost:3000`.
+
+## Como Usar
+
+1. Registre-se no aplicativo.
+2. Faça login com suas credenciais.
+3. Crie um novo plano de viagem.
+4. Adicione detalhes à sua viagem, como destinos, datas e atividades.
+5. Edite ou exclua planos conforme necessário.
+6. Visualize todos os seus planos de viagem em um só lugar.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você tiver sugestões de melhorias ou encontrar algum bug, por favor, abra uma issue ou envie um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+Felipe - [Seu LinkedIn](https://www.linkedin.com/in/seu-perfil) - seu-email
+
