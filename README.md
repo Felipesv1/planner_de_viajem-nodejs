@@ -56,6 +56,9 @@ Este projeto é um aplicativo web para planejar viagens, onde os usuários podem
 4. Crie um arquivo `.env` e configure as variáveis de ambiente necessárias:
     ```env
     DATABASE_URL=postgresql://user:password@localhost:5432/mydatabase
+    API_BASE_URL="<API>"
+    WEB_BASE_URL="<WEB_BASE>"
+    PORT=<PORT>
     ```
 
 5. Execute as migrações do Prisma:
