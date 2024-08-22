@@ -31,7 +31,6 @@ Este projeto é um aplicativo web para planejar viagens, onde os usuários podem
 ## Tecnologias Utilizadas
 
 - Node.js
-- Express
 - Prisma
 - PostgreSQL
 - TypeScript
